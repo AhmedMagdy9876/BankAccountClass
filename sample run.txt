@@ -1,0 +1,35 @@
+$ dart main.dart
+Enter account ID:
+jfjoiasjd82094382
+Zero-balance account? (y/n)
+y
+Enter transaction type (i for information / w for withdraw / d for deposit / c for close)
+i
+*** Bank Account Info ***
+Account ID: jfjoiasjd82094382
+Account Balance: 0.0
+*************************
+Enter transaction type (i for information / w for withdraw / d for deposit / c for close)
+d
+Enter amount to deposit:
+7
+successfully deposited 7.0; current balance is 7.0
+Enter transaction type (i for information / w for withdraw / d for deposit / c for close)
+w
+Enter amount to withdraw:
+-1
+invalid withdrawal amount: amount may not be negative!
+Enter transaction type (i for information / w for withdraw / d for deposit / c for close)
+w
+Enter amount to withdraw:
+0.5
+successfully withdrawn 0.5; current balance is 6.5
+Enter transaction type (i for information / w for withdraw / d for deposit / c for close)
+w
+Enter amount to withdraw:
+7
+could not withdraw requested amount: balance too low!
+Enter transaction type (i for information / w for withdraw / d for deposit / c for close)
+c
+Open another account? (y/n)
+n
